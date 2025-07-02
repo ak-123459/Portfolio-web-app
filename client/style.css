@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background: #f9f9f9;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #001854; /* Bootstrap primary blue */
+  color: #fff;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00bcd4;
+}
+
+header {
+ background-image: url('assets/17266.jpg'); /* Replace with your image path */
+  background-size: cover;   /* Cover the whole area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat */
+  color: #fff; /* Make text white for contrast (optional) */
+  text-align: center;
+  padding: 100px 20px; /* Add some space inside header */
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #f75937;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+  padding: 4px 8px;       /* optional padding for readability */
+}
+
+header p {
+  font-size: 18px;
+  color: #fbda45;
+  border-radius: 4px;
+  padding: 2px 6px;       /* optional */
+}
+
+header button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  background: ##0000FF;
+  color: ##0000FF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+
+
+header button:hover {
+  background: #0000FF;
+}
+
+
+section {
+  padding: 60px 50px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  color: #001854;
+}
+
+
+.project-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+
+
+.certificates-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  color: #001854;
+}
+
+
+
+.certificates-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificates-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.certificates-card h3 {
+  margin-top: 0;
+}
+
+
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: #fff;
+}
